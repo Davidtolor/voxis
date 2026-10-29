@@ -1,0 +1,65 @@
+# ==============================================================================
+# VOXIS AI AAC PLATFORM - PRODUCTION APACHE / CPANEL CONFIGURATION
+# ==============================================================================
+
+# 1. 🛡️ Disable Directory Browsing (Prevents directory listing)
+Options -Indexes
+
+# 2. 🔒 Block All Hidden Files & Sensitive Extensions (.env, .git, .py, etc.)
+<FilesMatch "(^\.|\.(py|pyc|sh|sql|bak|log|pem|key)$)">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# 3. 🔐 Protect Sensitive Server-Side Configs & Logs
+<FilesMatch "^(ai_config\.json|analytics_logs\.json)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# 4. 🌐 UTF-8 Encoding & Correct MIME Types
+AddDefaultCharset UTF-8
+AddType application/json .json
+AddType audio/mpeg .mp3
+AddType image/svg+xml .svg
+AddType font/woff2 .woff2
+
+# 5. ⚡ Enable Gzip Compression for Instantaneous Page Load
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css
+    AddOutputFilterByType DEFLATE application/xml application/xhtml+xml application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript application/x-javascript application/json
+    AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# 6. 🚀 Browser Caching for Zero-Latency AAC Performance
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 0 seconds"
+    ExpiresByType text/html "access plus 0 seconds"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType audio/mpeg "access plus 1 month"
+    ExpiresByType text/css "access plus 1 hour"
+    ExpiresByType application/javascript "access plus 1 hour"
+    ExpiresByType application/json "access plus 0 seconds"
+</IfModule>
+
+# 7. 🛡️ Essential HTTP Security Headers
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

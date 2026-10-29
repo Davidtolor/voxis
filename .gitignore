@@ -1,0 +1,55 @@
+# Environment and Sensitive Keys
+.env
+.env.*
+!.env.example
+data/ai_config.json
+data/analytics_logs.json
+*.key
+*.pem
+
+# Audio cache & user backups
+assets/audio/cache/
+assets/audio/cards_user_backup/
+
+# System and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.bak
+
+# Python & Cache files
+__pycache__/
+*.pyc
+*.pyo
+api/__pycache__/
+ai_engine/__pycache__/
+api/*.mp3
+
+# Scratch, Backups, and Large Media
+scratch/
+scratch_*.py
+video_production/
+backups/
+Voxis-video-3min/*.mp4
+!Voxis-video-3min/.gitkeep
+*.mp4
+*.zip
+*.docx
+mep_article_cover.jpg
+tvt_article_cover.jpg
+
+# Internal Team & Submission Notes (Keep local)
+CPANEL_DEPLOY_GUIDE.md
+DEVPOST_SUBMISSION.md
+VIDEO_RECORDING_PLAN.md
+robots.txt
+Voxis-video-3min/
+voxis_subtitles.srt
+tools/
+.env.example
+voxis_subtitles.srt
+
+
+

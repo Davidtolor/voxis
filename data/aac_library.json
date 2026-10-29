@@ -1,0 +1,1640 @@
+{
+  "version": "1.0",
+  "total": 163,
+  "cards": [
+    {
+      "id": "lib_apple",
+      "text": "ვაშლი",
+      "icon": "🍎",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ვაშლი",
+      "text_en": "Apple",
+      "spoken_en": "Apple"
+    },
+    {
+      "id": "lib_banana",
+      "text": "ბანანი",
+      "icon": "🍌",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ბანანი",
+      "text_en": "Banana",
+      "spoken_en": "Banana"
+    },
+    {
+      "id": "lib_pear",
+      "text": "მსხალი",
+      "icon": "🍐",
+      "type": "noun",
+      "category": "food",
+      "spoken": "მსხალი",
+      "text_en": "Pear",
+      "spoken_en": "Pear"
+    },
+    {
+      "id": "lib_strawberry",
+      "text": "მარწყვი",
+      "icon": "🍓",
+      "type": "noun",
+      "category": "food",
+      "spoken": "მარწყვი",
+      "text_en": "Strawberry",
+      "spoken_en": "Strawberry"
+    },
+    {
+      "id": "lib_watermelon",
+      "text": "საზამთრო",
+      "icon": "🍉",
+      "type": "noun",
+      "category": "food",
+      "spoken": "საზამთრო",
+      "text_en": "Watermelon",
+      "spoken_en": "Watermelon"
+    },
+    {
+      "id": "lib_orange",
+      "text": "ფორთოხალი",
+      "icon": "🍊",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ფორთოხალი",
+      "text_en": "Orange",
+      "spoken_en": "Orange"
+    },
+    {
+      "id": "lib_peach",
+      "text": "ატამი",
+      "icon": "🍑",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ატამი",
+      "text_en": "Peach",
+      "spoken_en": "Peach"
+    },
+    {
+      "id": "lib_grapes",
+      "text": "ყურძენი",
+      "icon": "🍇",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ყურძენი",
+      "text_en": "Grapes",
+      "spoken_en": "Grapes"
+    },
+    {
+      "id": "lib_cherry",
+      "text": "ალუბალი",
+      "icon": "🍒",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ალუბალი",
+      "text_en": "Cherry",
+      "spoken_en": "Cherry"
+    },
+    {
+      "id": "lib_lemon",
+      "text": "ლიმონი",
+      "icon": "🍋",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ლიმონი",
+      "text_en": "Lemon",
+      "spoken_en": "Lemon"
+    },
+    {
+      "id": "lib_bread",
+      "text": "პური",
+      "icon": "🍞",
+      "type": "noun",
+      "category": "food",
+      "spoken": "პური",
+      "text_en": "Bread",
+      "spoken_en": "Bread"
+    },
+    {
+      "id": "lib_cheese",
+      "text": "ყველი",
+      "icon": "🧀",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ყველი",
+      "text_en": "Cheese",
+      "spoken_en": "Cheese"
+    },
+    {
+      "id": "lib_khachapuri",
+      "text": "ხაჭაპური",
+      "icon": "🥧",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ხაჭაპური",
+      "text_en": "Khachapuri",
+      "spoken_en": "Khachapuri"
+    },
+    {
+      "id": "lib_butter",
+      "text": "კარაქი",
+      "icon": "🧈",
+      "type": "noun",
+      "category": "food",
+      "spoken": "კარაქი",
+      "text_en": "Butter",
+      "spoken_en": "Butter"
+    },
+    {
+      "id": "lib_egg",
+      "text": "კვერცხი",
+      "icon": "🍳",
+      "type": "noun",
+      "category": "food",
+      "spoken": "კვერცხი",
+      "text_en": "Egg",
+      "spoken_en": "Egg"
+    },
+    {
+      "id": "lib_soup",
+      "text": "წვნიანი",
+      "icon": "🍲",
+      "type": "noun",
+      "category": "food",
+      "spoken": "წვნიანი",
+      "text_en": "Soup",
+      "spoken_en": "Soup"
+    },
+    {
+      "id": "lib_pasta",
+      "text": "მაკარონი",
+      "icon": "🍝",
+      "type": "noun",
+      "category": "food",
+      "spoken": "მაკარონი",
+      "text_en": "Pasta",
+      "spoken_en": "Pasta"
+    },
+    {
+      "id": "lib_pizza",
+      "text": "პიცა",
+      "icon": "🍕",
+      "type": "noun",
+      "category": "food",
+      "spoken": "პიცა",
+      "text_en": "Pizza",
+      "spoken_en": "Pizza"
+    },
+    {
+      "id": "lib_burger",
+      "text": "ბურგერი",
+      "icon": "🍔",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ბურგერი",
+      "text_en": "Burger",
+      "spoken_en": "Burger"
+    },
+    {
+      "id": "lib_potato",
+      "text": "კარტოფილი",
+      "icon": "🥔",
+      "type": "noun",
+      "category": "food",
+      "spoken": "კარტოფილი",
+      "text_en": "Potato",
+      "spoken_en": "Potato"
+    },
+    {
+      "id": "lib_fries",
+      "text": "ფრი",
+      "icon": "🍟",
+      "type": "noun",
+      "category": "food",
+      "spoken": "კარტოფილი ფრი",
+      "text_en": "Fries",
+      "spoken_en": "Fries"
+    },
+    {
+      "id": "lib_sausage",
+      "text": "სოსისი",
+      "icon": "🌭",
+      "type": "noun",
+      "category": "food",
+      "spoken": "სოსისი",
+      "text_en": "Sausage",
+      "spoken_en": "Sausage"
+    },
+    {
+      "id": "lib_meat",
+      "text": "ხორცი",
+      "icon": "🥩",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ხორცი",
+      "text_en": "Meat",
+      "spoken_en": "Meat"
+    },
+    {
+      "id": "lib_fish_food",
+      "text": "თევზი",
+      "icon": "🐟",
+      "type": "noun",
+      "category": "food",
+      "spoken": "თევზი",
+      "text_en": "Fish",
+      "spoken_en": "Fish"
+    },
+    {
+      "id": "lib_rice",
+      "text": "ბრინჯი",
+      "icon": "🍚",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ბრინჯი",
+      "text_en": "Rice",
+      "spoken_en": "Rice"
+    },
+    {
+      "id": "lib_pancake",
+      "text": "ბლინი",
+      "icon": "🥞",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ბლინი",
+      "text_en": "Pancake",
+      "spoken_en": "Pancake"
+    },
+    {
+      "id": "lib_cucumber",
+      "text": "კიტრი",
+      "icon": "🥒",
+      "type": "noun",
+      "category": "food",
+      "spoken": "კიტრი",
+      "text_en": "Cucumber",
+      "spoken_en": "Cucumber"
+    },
+    {
+      "id": "lib_tomato",
+      "text": "პომიდორი",
+      "icon": "🍅",
+      "type": "noun",
+      "category": "food",
+      "spoken": "პომიდორი",
+      "text_en": "Tomato",
+      "spoken_en": "Tomato"
+    },
+    {
+      "id": "lib_carrot",
+      "text": "სტაფილო",
+      "icon": "🥕",
+      "type": "noun",
+      "category": "food",
+      "spoken": "სტაფილო",
+      "text_en": "Carrot",
+      "spoken_en": "Carrot"
+    },
+    {
+      "id": "lib_corn",
+      "text": "სიმინდი",
+      "icon": "🌽",
+      "type": "noun",
+      "category": "food",
+      "spoken": "სიმინდი",
+      "text_en": "Corn",
+      "spoken_en": "Corn"
+    },
+    {
+      "id": "lib_cookie",
+      "text": "ორცხობილა",
+      "icon": "🍪",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ორცხობილა",
+      "text_en": "Cookie",
+      "spoken_en": "Cookie"
+    },
+    {
+      "id": "lib_chocolate",
+      "text": "შოკოლადი",
+      "icon": "🍫",
+      "type": "noun",
+      "category": "food",
+      "spoken": "შოკოლადი",
+      "text_en": "Chocolate",
+      "spoken_en": "Chocolate"
+    },
+    {
+      "id": "lib_ice_cream",
+      "text": "ნაყინი",
+      "icon": "🍦",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ნაყინი",
+      "text_en": "Ice Cream",
+      "spoken_en": "Ice Cream"
+    },
+    {
+      "id": "lib_cake",
+      "text": "ტორტი",
+      "icon": "🎂",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ტორტი",
+      "text_en": "Cake",
+      "spoken_en": "Cake"
+    },
+    {
+      "id": "lib_candy",
+      "text": "კანფეტი",
+      "icon": "🍬",
+      "type": "noun",
+      "category": "food",
+      "spoken": "კანფეტი",
+      "text_en": "Candy",
+      "spoken_en": "Candy"
+    },
+    {
+      "id": "lib_chips",
+      "text": "ჩიფსი",
+      "icon": "🥔",
+      "image": "https://static.arasaac.org/pictograms/5400/5400_300.png",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ჩიფსი",
+      "text_en": "Chips",
+      "spoken_en": "Chips"
+    },
+    {
+      "id": "lib_cracker",
+      "text": "კრეკერი",
+      "icon": "🥨",
+      "image": "https://static.arasaac.org/pictograms/37883/37883_300.png",
+      "type": "noun",
+      "category": "food",
+      "spoken": "კრეკერი",
+      "text_en": "Cracker",
+      "spoken_en": "Cracker"
+    },
+    {
+      "id": "lib_gummy",
+      "text": "ჟელიბონი",
+      "icon": "🍬",
+      "image": "https://static.arasaac.org/pictograms/7118/7118_300.png",
+      "type": "noun",
+      "category": "food",
+      "spoken": "ჟელიბონი",
+      "text_en": "Gummy",
+      "spoken_en": "Gummy"
+    },
+    {
+      "id": "lib_water",
+      "text": "წყალი",
+      "icon": "💧",
+      "type": "noun",
+      "category": "drinks",
+      "spoken": "წყალი",
+      "text_en": "Water",
+      "spoken_en": "Water"
+    },
+    {
+      "id": "lib_juice",
+      "text": "წვენი",
+      "icon": "🧃",
+      "type": "noun",
+      "category": "drinks",
+      "spoken": "წვენი",
+      "text_en": "Juice",
+      "spoken_en": "Juice"
+    },
+    {
+      "id": "lib_apple_juice",
+      "text": "ვაშლის წვენი",
+      "icon": "🧃",
+      "type": "noun",
+      "category": "drinks",
+      "spoken": "ვაშლის წვენი",
+      "text_en": "Apple Juice",
+      "spoken_en": "Apple Juice"
+    },
+    {
+      "id": "lib_orange_juice",
+      "text": "ფორთოხლის წვენი",
+      "icon": "🍹",
+      "type": "noun",
+      "category": "drinks",
+      "spoken": "ფორთოხლის წვენი",
+      "text_en": "Orange Juice",
+      "spoken_en": "Orange Juice"
+    },
+    {
+      "id": "lib_milk",
+      "text": "რძე",
+      "icon": "🥛",
+      "type": "noun",
+      "category": "drinks",
+      "spoken": "რძე",
+      "text_en": "Milk",
+      "spoken_en": "Milk"
+    },
+    {
+      "id": "lib_tea",
+      "text": "ჩაი",
+      "icon": "🍵",
+      "type": "noun",
+      "category": "drinks",
+      "spoken": "ჩაი",
+      "text_en": "Tea",
+      "spoken_en": "Tea"
+    },
+    {
+      "id": "lib_compote",
+      "text": "კომპოტი",
+      "icon": "🫗",
+      "type": "noun",
+      "category": "drinks",
+      "spoken": "კომპოტი",
+      "text_en": "Compote",
+      "spoken_en": "Compote"
+    },
+    {
+      "id": "lib_cocoa",
+      "text": "კაკაო",
+      "icon": "☕",
+      "type": "noun",
+      "category": "drinks",
+      "spoken": "კაკაო",
+      "text_en": "Cocoa",
+      "spoken_en": "Cocoa"
+    },
+    {
+      "id": "lib_lemonade",
+      "text": "ლიმონათი",
+      "icon": "🥤",
+      "type": "noun",
+      "category": "drinks",
+      "spoken": "ლიმონათი",
+      "text_en": "Lemonade",
+      "spoken_en": "Lemonade"
+    },
+    {
+      "id": "lib_ball",
+      "text": "ბურთი",
+      "icon": "⚽",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "ბურთი",
+      "text_en": "Ball",
+      "spoken_en": "Ball"
+    },
+    {
+      "id": "lib_car",
+      "text": "მანქანა",
+      "icon": "🚗",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "მანქანა",
+      "text_en": "Toy Car",
+      "spoken_en": "Toy Car"
+    },
+    {
+      "id": "lib_lego",
+      "text": "ლეგო",
+      "icon": "🧱",
+      "image": "assets/images/lego.svg",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "ლეგო",
+      "text_en": "Lego",
+      "spoken_en": "Lego"
+    },
+    {
+      "id": "lib_bear",
+      "text": "დათუნია",
+      "icon": "🧸",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "დათუნია",
+      "text_en": "Bear",
+      "spoken_en": "Bear"
+    },
+    {
+      "id": "lib_doll",
+      "text": "თოჯინა",
+      "icon": "🪆",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "თოჯინა",
+      "text_en": "Doll",
+      "spoken_en": "Doll"
+    },
+    {
+      "id": "lib_puzzle",
+      "text": "ფაზლი",
+      "icon": "🧩",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "ფაზლი",
+      "text_en": "Puzzle",
+      "spoken_en": "Puzzle"
+    },
+    {
+      "id": "lib_book",
+      "text": "წიგნი",
+      "icon": "📖",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "წიგნი",
+      "text_en": "Book",
+      "spoken_en": "Book"
+    },
+    {
+      "id": "lib_music",
+      "text": "მუსიკა",
+      "icon": "🎵",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "მუსიკა",
+      "text_en": "Music",
+      "spoken_en": "Music"
+    },
+    {
+      "id": "lib_swing",
+      "text": "საქანელა",
+      "icon": "🎪",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "საქანელა",
+      "text_en": "Swing",
+      "spoken_en": "Swing"
+    },
+    {
+      "id": "lib_slide",
+      "text": "სასრიალო",
+      "icon": "🛝",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "სასრიალო",
+      "text_en": "Slide",
+      "spoken_en": "Slide"
+    },
+    {
+      "id": "lib_bubbles",
+      "text": "საპნის ბუშტები",
+      "icon": "🫧",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "საპნის ბუშტები",
+      "text_en": "Bubbles",
+      "spoken_en": "Bubbles"
+    },
+    {
+      "id": "lib_playdough",
+      "text": "პლასტილინი",
+      "icon": "🎨",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "პლასტილინი",
+      "text_en": "Play Dough",
+      "spoken_en": "Play Dough"
+    },
+    {
+      "id": "lib_bicycle",
+      "text": "ველოსიპედი",
+      "icon": "🚲",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "ველოსიპედი",
+      "text_en": "Bicycle",
+      "spoken_en": "Bicycle"
+    },
+    {
+      "id": "lib_scooter",
+      "text": "სკუტერი",
+      "icon": "🛴",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "სკუტერი",
+      "text_en": "Scooter",
+      "spoken_en": "Scooter"
+    },
+    {
+      "id": "lib_airplane",
+      "text": "თვითმფრინავი",
+      "icon": "✈️",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "თვითმფრინავი",
+      "text_en": "Toy Plane",
+      "spoken_en": "Toy Plane"
+    },
+    {
+      "id": "lib_train",
+      "text": "მატარებელი",
+      "icon": "🚂",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "მატარებელი",
+      "text_en": "Toy Train",
+      "spoken_en": "Toy Train"
+    },
+    {
+      "id": "lib_trampoline",
+      "text": "ბატუტი",
+      "icon": "🤸",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "ბატუტი",
+      "text_en": "Trampoline",
+      "spoken_en": "Trampoline"
+    },
+    {
+      "id": "lib_toy_phone",
+      "text": "სათამაშო ტელეფონი",
+      "icon": "📱",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "სათამაშო ტელეფონი",
+      "text_en": "Toy Phone",
+      "spoken_en": "Toy Phone"
+    },
+    {
+      "id": "lib_crayons",
+      "text": "ფერადი ფანქრები",
+      "icon": "🖍️",
+      "type": "noun",
+      "category": "toys",
+      "spoken": "ფერადი ფანქრები",
+      "text_en": "Crayons",
+      "spoken_en": "Crayons"
+    },
+    {
+      "id": "lib_eat",
+      "text": "ჭამა",
+      "icon": "🍽️",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "ჭამა",
+      "text_en": "Eat",
+      "spoken_en": "Eat"
+    },
+    {
+      "id": "lib_drink",
+      "text": "დალევა",
+      "icon": "🥤",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "დალევა",
+      "text_en": "Drink",
+      "spoken_en": "Drink"
+    },
+    {
+      "id": "lib_play",
+      "text": "თამაში",
+      "icon": "🎮",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "თამაში",
+      "text_en": "Play",
+      "spoken_en": "Play"
+    },
+    {
+      "id": "lib_walk",
+      "text": "გასეირნება",
+      "icon": "🚶",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "გასეირნება",
+      "text_en": "Go for a walk",
+      "spoken_en": "Go for a walk"
+    },
+    {
+      "id": "lib_sleep",
+      "text": "ძილი",
+      "icon": "🛏️",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "ძილი",
+      "text_en": "Sleep",
+      "spoken_en": "Sleep"
+    },
+    {
+      "id": "lib_hug",
+      "text": "ჩახუტება",
+      "icon": "🤗",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "ჩახუტება",
+      "text_en": "Hug",
+      "spoken_en": "Hug"
+    },
+    {
+      "id": "lib_rest",
+      "text": "დასვენება",
+      "icon": "🛋️",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "დასვენება",
+      "text_en": "Rest",
+      "spoken_en": "Rest"
+    },
+    {
+      "id": "lib_draw",
+      "text": "ხატვა",
+      "icon": "🎨",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "ხატვა",
+      "text_en": "Draw / Paint",
+      "spoken_en": "Draw / Paint"
+    },
+    {
+      "id": "lib_read",
+      "text": "კითხვა",
+      "icon": "📚",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "კითხვა",
+      "text_en": "Read",
+      "spoken_en": "Read"
+    },
+    {
+      "id": "lib_swim",
+      "text": "ცურვა",
+      "icon": "🏊",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "ცურვა",
+      "text_en": "Swim",
+      "spoken_en": "Swim"
+    },
+    {
+      "id": "lib_run",
+      "text": "სირბილი",
+      "icon": "🏃",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "სირბილი",
+      "text_en": "Run",
+      "spoken_en": "Run"
+    },
+    {
+      "id": "lib_jump",
+      "text": "ხტუნვა",
+      "icon": "🦘",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "ხტუნვა",
+      "text_en": "Jump",
+      "spoken_en": "Jump"
+    },
+    {
+      "id": "lib_dance",
+      "text": "ცეკვა",
+      "icon": "💃",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "ცეკვა",
+      "text_en": "Dance",
+      "spoken_en": "Dance"
+    },
+    {
+      "id": "lib_sing",
+      "text": "სიმღერა",
+      "icon": "🎤",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "სიმღერა",
+      "text_en": "Sing",
+      "spoken_en": "Sing"
+    },
+    {
+      "id": "lib_look",
+      "text": "ყურება",
+      "icon": "👀",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "ყურება",
+      "text_en": "Look / Watch",
+      "spoken_en": "Look / Watch"
+    },
+    {
+      "id": "lib_listen",
+      "text": "მოსმენა",
+      "icon": "👂",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "მოსმენა",
+      "text_en": "Listen",
+      "spoken_en": "Listen"
+    },
+    {
+      "id": "lib_open_door",
+      "text": "კარის გაღება",
+      "icon": "🚪",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "კარის გაღება",
+      "text_en": "Open door",
+      "spoken_en": "Open door"
+    },
+    {
+      "id": "lib_sit",
+      "text": "დაჯდომა",
+      "icon": "🪑",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "დაჯდომა",
+      "text_en": "Sit down",
+      "spoken_en": "Sit down"
+    },
+    {
+      "id": "lib_stand",
+      "text": "ადგომა",
+      "icon": "🧍",
+      "type": "verb",
+      "category": "actions",
+      "spoken": "ადგომა",
+      "text_en": "Stand up",
+      "spoken_en": "Stand up"
+    },
+    {
+      "id": "lib_toilet",
+      "text": "ტუალეტი",
+      "icon": "🚽",
+      "type": "noun",
+      "category": "hygiene",
+      "spoken": "ტუალეტი",
+      "text_en": "Toilet / Restroom",
+      "spoken_en": "Toilet / Restroom"
+    },
+    {
+      "id": "lib_wash_hands",
+      "text": "ხელების დაბანა",
+      "icon": "🧼",
+      "type": "verb",
+      "category": "hygiene",
+      "spoken": "ხელების დაბანა",
+      "text_en": "Wash hands",
+      "spoken_en": "Wash hands"
+    },
+    {
+      "id": "lib_brush_teeth",
+      "text": "კბილების გახეხვა",
+      "icon": "🪥",
+      "type": "verb",
+      "category": "hygiene",
+      "spoken": "კბილების გახეხვა",
+      "text_en": "Brush teeth",
+      "spoken_en": "Brush teeth"
+    },
+    {
+      "id": "lib_shower",
+      "text": "ბანაობა / შხაპი",
+      "icon": "🚿",
+      "type": "verb",
+      "category": "hygiene",
+      "spoken": "ბანაობა",
+      "text_en": "Shower",
+      "spoken_en": "Shower"
+    },
+    {
+      "id": "lib_bath",
+      "text": "აბაზანა",
+      "icon": "🛁",
+      "type": "noun",
+      "category": "hygiene",
+      "spoken": "აბაზანა",
+      "text_en": "Take a bath",
+      "spoken_en": "Take a bath"
+    },
+    {
+      "id": "lib_comb_hair",
+      "text": "თმის დავარცხნა",
+      "icon": "🪮",
+      "type": "verb",
+      "category": "hygiene",
+      "spoken": "თმის დავარცხნა",
+      "text_en": "Comb hair",
+      "spoken_en": "Comb hair"
+    },
+    {
+      "id": "lib_dress_up",
+      "text": "ტანსაცმლის ჩაცმა",
+      "icon": "👕",
+      "type": "verb",
+      "category": "hygiene",
+      "spoken": "ტანსაცმლის ჩაცმა",
+      "text_en": "Get dressed",
+      "spoken_en": "Get dressed"
+    },
+    {
+      "id": "lib_shirt",
+      "text": "მაისური",
+      "icon": "👕",
+      "type": "noun",
+      "category": "hygiene",
+      "spoken": "მაისური",
+      "text_en": "Shirt",
+      "spoken_en": "Shirt"
+    },
+    {
+      "id": "lib_pants",
+      "text": "შარვალი",
+      "icon": "👖",
+      "type": "noun",
+      "category": "hygiene",
+      "spoken": "შარვალი",
+      "text_en": "Pants",
+      "spoken_en": "Pants"
+    },
+    {
+      "id": "lib_jacket",
+      "text": "ქურთუკი",
+      "icon": "🧥",
+      "type": "noun",
+      "category": "hygiene",
+      "spoken": "ქურთუკი",
+      "text_en": "Jacket",
+      "spoken_en": "Jacket"
+    },
+    {
+      "id": "lib_shoes",
+      "text": "ფეხსაცმელი",
+      "icon": "👟",
+      "type": "noun",
+      "category": "hygiene",
+      "spoken": "ფეხსაცმელი",
+      "text_en": "Shoes",
+      "spoken_en": "Shoes"
+    },
+    {
+      "id": "lib_socks",
+      "text": "წინდები",
+      "icon": "🧦",
+      "type": "noun",
+      "category": "hygiene",
+      "spoken": "წინდები",
+      "text_en": "Socks",
+      "spoken_en": "Socks"
+    },
+    {
+      "id": "lib_hat",
+      "text": "ქუდი",
+      "icon": "🧢",
+      "type": "noun",
+      "category": "hygiene",
+      "spoken": "ქუდი",
+      "text_en": "Hat",
+      "spoken_en": "Hat"
+    },
+    {
+      "id": "lib_tissue",
+      "text": "ცხვირსახოცი",
+      "icon": "🧻",
+      "type": "noun",
+      "category": "hygiene",
+      "spoken": "ცხვირსახოცი",
+      "text_en": "Tissue",
+      "spoken_en": "Tissue"
+    },
+    {
+      "id": "lib_mom",
+      "text": "დედა",
+      "icon": "👩",
+      "type": "people",
+      "category": "people",
+      "spoken": "დედა",
+      "text_en": "Mom",
+      "spoken_en": "Mom"
+    },
+    {
+      "id": "lib_dad",
+      "text": "მამა",
+      "icon": "👨",
+      "type": "people",
+      "category": "people",
+      "spoken": "მამა",
+      "text_en": "Dad",
+      "spoken_en": "Dad"
+    },
+    {
+      "id": "lib_grandma",
+      "text": "ბებია",
+      "icon": "👵",
+      "type": "people",
+      "category": "people",
+      "spoken": "ბებია",
+      "text_en": "Grandma",
+      "spoken_en": "Grandma"
+    },
+    {
+      "id": "lib_grandpa",
+      "text": "ბაბუა",
+      "icon": "👴",
+      "type": "people",
+      "category": "people",
+      "spoken": "ბაბუა",
+      "text_en": "Grandpa",
+      "spoken_en": "Grandpa"
+    },
+    {
+      "id": "lib_sister",
+      "text": "დაიკო",
+      "icon": "👧",
+      "type": "people",
+      "category": "people",
+      "spoken": "დაიკო",
+      "text_en": "Sister",
+      "spoken_en": "Sister"
+    },
+    {
+      "id": "lib_brother",
+      "text": "ძამიკო",
+      "icon": "👦",
+      "type": "people",
+      "category": "people",
+      "spoken": "ძამიკო",
+      "text_en": "Brother",
+      "spoken_en": "Brother"
+    },
+    {
+      "id": "lib_teacher",
+      "text": "მასწავლებელი",
+      "icon": "👩‍🏫",
+      "type": "people",
+      "category": "people",
+      "spoken": "მასწავლებელი",
+      "text_en": "Teacher",
+      "spoken_en": "Teacher"
+    },
+    {
+      "id": "lib_doctor",
+      "text": "ექიმი",
+      "icon": "🩺",
+      "type": "people",
+      "category": "people",
+      "spoken": "ექიმი",
+      "text_en": "Doctor",
+      "spoken_en": "Doctor"
+    },
+    {
+      "id": "lib_friend",
+      "text": "მეგობარი",
+      "icon": "🧑‍🤝‍🧑",
+      "type": "people",
+      "category": "people",
+      "spoken": "მეგობარი",
+      "text_en": "Friend",
+      "spoken_en": "Friend"
+    },
+    {
+      "id": "lib_nanny",
+      "text": "ძიძა",
+      "icon": "🧑‍🍼",
+      "type": "people",
+      "category": "people",
+      "spoken": "ძიძა",
+      "text_en": "Nanny",
+      "spoken_en": "Nanny"
+    },
+    {
+      "id": "lib_me",
+      "text": "მე",
+      "icon": "🧒",
+      "type": "people",
+      "category": "people",
+      "spoken": "მე",
+      "text_en": "Me",
+      "spoken_en": "Me"
+    },
+    {
+      "id": "lib_happy",
+      "text": "მიხარია",
+      "icon": "😊",
+      "type": "social",
+      "category": "feelings",
+      "spoken": "მიხარია",
+      "text_en": "Happy",
+      "spoken_en": "Happy"
+    },
+    {
+      "id": "lib_sad",
+      "text": "მწყინს",
+      "icon": "😢",
+      "type": "social",
+      "category": "feelings",
+      "spoken": "მწყინს",
+      "text_en": "Sad",
+      "spoken_en": "Sad"
+    },
+    {
+      "id": "lib_angry",
+      "text": "გავბრაზდი",
+      "icon": "😠",
+      "type": "social",
+      "category": "feelings",
+      "spoken": "გავბრაზდი",
+      "text_en": "Angry",
+      "spoken_en": "Angry"
+    },
+    {
+      "id": "lib_tired",
+      "text": "დავიღალე",
+      "icon": "🥱",
+      "type": "social",
+      "category": "feelings",
+      "spoken": "დავიღალე",
+      "text_en": "Tired",
+      "spoken_en": "Tired"
+    },
+    {
+      "id": "lib_scared",
+      "text": "მეშინია",
+      "icon": "😨",
+      "type": "social",
+      "category": "feelings",
+      "spoken": "მეშინია",
+      "text_en": "Scared",
+      "spoken_en": "Scared"
+    },
+    {
+      "id": "lib_belly_hurt",
+      "text": "მუცელი მტკივა",
+      "icon": "😣",
+      "type": "social",
+      "category": "feelings",
+      "spoken": "მუცელი მტკივა",
+      "text_en": "Stomach hurts",
+      "spoken_en": "Stomach hurts"
+    },
+    {
+      "id": "lib_head_hurt",
+      "text": "თავი მტკივა",
+      "icon": "🤕",
+      "type": "social",
+      "category": "feelings",
+      "spoken": "თავი მტკივა",
+      "text_en": "Head hurts",
+      "spoken_en": "Head hurts"
+    },
+    {
+      "id": "lib_cold",
+      "text": "მცივა",
+      "icon": "🥶",
+      "type": "social",
+      "category": "feelings",
+      "spoken": "მცივა",
+      "text_en": "I feel cold",
+      "spoken_en": "I feel cold"
+    },
+    {
+      "id": "lib_hot",
+      "text": "მცხელა",
+      "icon": "🥵",
+      "type": "social",
+      "category": "feelings",
+      "spoken": "მცხელა",
+      "text_en": "I feel hot",
+      "spoken_en": "I feel hot"
+    },
+    {
+      "id": "lib_hungry",
+      "text": "მშია",
+      "icon": "🤤",
+      "type": "social",
+      "category": "feelings",
+      "spoken": "მშია",
+      "text_en": "I am hungry",
+      "spoken_en": "I am hungry"
+    },
+    {
+      "id": "lib_thirsty",
+      "text": "მწყურია",
+      "icon": "🥤",
+      "type": "social",
+      "category": "feelings",
+      "spoken": "მწყურია",
+      "text_en": "I am thirsty",
+      "spoken_en": "I am thirsty"
+    },
+    {
+      "id": "lib_calm",
+      "text": "მშვიდად ვარ",
+      "icon": "😌",
+      "type": "social",
+      "category": "feelings",
+      "spoken": "მშვიდად ვარ",
+      "text_en": "Calm",
+      "spoken_en": "Calm"
+    },
+    {
+      "id": "lib_dog",
+      "text": "ძაღლი",
+      "icon": "🐶",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "ძაღლი",
+      "text_en": "Dog",
+      "spoken_en": "Dog"
+    },
+    {
+      "id": "lib_puppy",
+      "text": "ლეკვი",
+      "icon": "🐕",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "ლეკვი",
+      "text_en": "Puppy",
+      "spoken_en": "Puppy"
+    },
+    {
+      "id": "lib_cat",
+      "text": "კატა",
+      "icon": "🐱",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "კატა",
+      "text_en": "Cat",
+      "spoken_en": "Cat"
+    },
+    {
+      "id": "lib_cow",
+      "text": "ძროხა",
+      "icon": "🐮",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "ძროხა",
+      "text_en": "Cow",
+      "spoken_en": "Cow"
+    },
+    {
+      "id": "lib_horse",
+      "text": "ცხენი",
+      "icon": "🐴",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "ცხენი",
+      "text_en": "Horse",
+      "spoken_en": "Horse"
+    },
+    {
+      "id": "lib_sheep",
+      "text": "ცხვარი",
+      "icon": "🐑",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "ცხვარი",
+      "text_en": "Sheep",
+      "spoken_en": "Sheep"
+    },
+    {
+      "id": "lib_bird",
+      "text": "ჩიტი",
+      "icon": "🐦",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "ჩიტი",
+      "text_en": "Bird",
+      "spoken_en": "Bird"
+    },
+    {
+      "id": "lib_fish_animal",
+      "text": "თევზი",
+      "icon": "🐠",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "თევზი",
+      "text_en": "Fish",
+      "spoken_en": "Fish"
+    },
+    {
+      "id": "lib_rabbit",
+      "text": "ბაჭია",
+      "icon": "🐰",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "ბაჭია",
+      "text_en": "Rabbit",
+      "spoken_en": "Rabbit"
+    },
+    {
+      "id": "lib_bear_animal",
+      "text": "დათვი",
+      "icon": "🐻",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "დათვი",
+      "text_en": "Bear",
+      "spoken_en": "Bear"
+    },
+    {
+      "id": "lib_lion",
+      "text": "ლომი",
+      "icon": "🦁",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "ლომი",
+      "text_en": "Lion",
+      "spoken_en": "Lion"
+    },
+    {
+      "id": "lib_elephant",
+      "text": "სპილო",
+      "icon": "🐘",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "სპილო",
+      "text_en": "Elephant",
+      "spoken_en": "Elephant"
+    },
+    {
+      "id": "lib_monkey",
+      "text": "მაიმუნი",
+      "icon": "🐵",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "მაიმუნი",
+      "text_en": "Monkey",
+      "spoken_en": "Monkey"
+    },
+    {
+      "id": "lib_duck",
+      "text": "იხვი",
+      "icon": "🦆",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "იხვი",
+      "text_en": "Duck",
+      "spoken_en": "Duck"
+    },
+    {
+      "id": "lib_butterfly",
+      "text": "პეპელა",
+      "icon": "🦋",
+      "type": "noun",
+      "category": "animals",
+      "spoken": "პეპელა",
+      "text_en": "Butterfly",
+      "spoken_en": "Butterfly"
+    },
+    {
+      "id": "lib_pencil",
+      "text": "ფანქარი",
+      "icon": "✏️",
+      "type": "noun",
+      "category": "school",
+      "spoken": "ფანქარი",
+      "text_en": "Pencil",
+      "spoken_en": "Pencil"
+    },
+    {
+      "id": "lib_scissors",
+      "text": "მაკრატელი",
+      "icon": "✂️",
+      "type": "noun",
+      "category": "school",
+      "spoken": "მაკრატელი",
+      "text_en": "Scissors",
+      "spoken_en": "Scissors"
+    },
+    {
+      "id": "lib_glue",
+      "text": "წებო",
+      "icon": "🧴",
+      "type": "noun",
+      "category": "school",
+      "spoken": "წებო",
+      "text_en": "Glue",
+      "spoken_en": "Glue"
+    },
+    {
+      "id": "lib_notebook",
+      "text": "რვეული",
+      "icon": "📓",
+      "type": "noun",
+      "category": "school",
+      "spoken": "რვეული",
+      "text_en": "Notebook",
+      "spoken_en": "Notebook"
+    },
+    {
+      "id": "lib_backpack",
+      "text": "ჩანთა",
+      "icon": "🎒",
+      "type": "noun",
+      "category": "school",
+      "spoken": "ჩანთა",
+      "text_en": "Backpack",
+      "spoken_en": "Backpack"
+    },
+    {
+      "id": "lib_table",
+      "text": "მაგიდა",
+      "icon": "🪑",
+      "type": "noun",
+      "category": "school",
+      "spoken": "მაგიდა",
+      "text_en": "Table",
+      "spoken_en": "Table"
+    },
+    {
+      "id": "lib_chair",
+      "text": "სკამი",
+      "icon": "🪑",
+      "type": "noun",
+      "category": "school",
+      "spoken": "სკამი",
+      "text_en": "Chair",
+      "spoken_en": "Chair"
+    },
+    {
+      "id": "lib_spoon",
+      "text": "კოვზი",
+      "icon": "🥄",
+      "type": "noun",
+      "category": "school",
+      "spoken": "კოვზი",
+      "text_en": "Spoon",
+      "spoken_en": "Spoon"
+    },
+    {
+      "id": "lib_fork",
+      "text": "ჩანგალი",
+      "icon": "🍴",
+      "type": "noun",
+      "category": "school",
+      "spoken": "ჩანგალი",
+      "text_en": "Fork",
+      "spoken_en": "Fork"
+    },
+    {
+      "id": "lib_plate",
+      "text": "თეფში",
+      "icon": "🍽️",
+      "type": "noun",
+      "category": "school",
+      "spoken": "თეფში",
+      "text_en": "Plate",
+      "spoken_en": "Plate"
+    },
+    {
+      "id": "lib_cup",
+      "text": "ჭიქა",
+      "icon": "🥛",
+      "type": "noun",
+      "category": "school",
+      "spoken": "ჭიქა",
+      "text_en": "Cup",
+      "spoken_en": "Cup"
+    },
+    {
+      "id": "lib_tablet",
+      "text": "პლანშეტი",
+      "icon": "📱",
+      "type": "noun",
+      "category": "school",
+      "spoken": "პლანშეტი",
+      "text_en": "Tablet",
+      "spoken_en": "Tablet"
+    },
+    {
+      "id": "lib_tv",
+      "text": "ტელევიზორი",
+      "icon": "📺",
+      "type": "noun",
+      "category": "school",
+      "spoken": "ტელევიზორი",
+      "text_en": "TV",
+      "spoken_en": "TV"
+    },
+    {
+      "id": "lib_clock",
+      "text": "საათი",
+      "icon": "⏰",
+      "type": "noun",
+      "category": "school",
+      "spoken": "საათი",
+      "text_en": "Clock",
+      "spoken_en": "Clock"
+    },
+    {
+      "id": "lib_want",
+      "text": "მე მინდა",
+      "icon": "🤲",
+      "type": "verb",
+      "category": "basic",
+      "spoken": "მე მინდა",
+      "text_en": "I want",
+      "spoken_en": "I want"
+    },
+    {
+      "id": "lib_dont_want",
+      "text": "არ მინდა",
+      "icon": "🛑",
+      "type": "verb",
+      "category": "basic",
+      "spoken": "არ მინდა",
+      "text_en": "I don't want",
+      "spoken_en": "I don't want"
+    },
+    {
+      "id": "lib_yes",
+      "text": "დიახ",
+      "icon": "✅",
+      "type": "basic",
+      "category": "basic",
+      "spoken": "დიახ",
+      "text_en": "Yes",
+      "spoken_en": "Yes"
+    },
+    {
+      "id": "lib_no",
+      "text": "არა",
+      "icon": "❌",
+      "type": "basic",
+      "category": "basic",
+      "spoken": "არა",
+      "text_en": "No",
+      "spoken_en": "No"
+    },
+    {
+      "id": "lib_help",
+      "text": "დახმარება",
+      "icon": "✋",
+      "type": "basic",
+      "category": "basic",
+      "spoken": "დამეხმარე",
+      "text_en": "Help",
+      "spoken_en": "Help"
+    },
+    {
+      "id": "lib_stop",
+      "text": "გაჩერდი",
+      "icon": "🛑",
+      "type": "basic",
+      "category": "basic",
+      "spoken": "გაჩერდი",
+      "text_en": "Stop",
+      "spoken_en": "Stop"
+    },
+    {
+      "id": "lib_more",
+      "text": "კიდევ / მეტი",
+      "icon": "➕",
+      "type": "adjective",
+      "category": "basic",
+      "spoken": "კიდევ მინდა",
+      "text_en": "More",
+      "spoken_en": "More"
+    },
+    {
+      "id": "lib_finished",
+      "text": "მორჩა",
+      "icon": "🙅",
+      "type": "basic",
+      "category": "basic",
+      "spoken": "მორჩა",
+      "text_en": "Finished",
+      "spoken_en": "Finished"
+    },
+    {
+      "id": "lib_please",
+      "text": "გთხოვ",
+      "icon": "🙏",
+      "type": "basic",
+      "category": "basic",
+      "spoken": "გთხოვ",
+      "text_en": "Please",
+      "spoken_en": "Please"
+    },
+    {
+      "id": "lib_thanks",
+      "text": "მადლობა",
+      "icon": "💐",
+      "type": "basic",
+      "category": "basic",
+      "spoken": "მადლობა",
+      "text_en": "Thank you",
+      "spoken_en": "Thank you"
+    },
+    {
+      "id": "lib_hello",
+      "text": "გამარჯობა",
+      "icon": "👋",
+      "type": "basic",
+      "category": "basic",
+      "spoken": "გამარჯობა",
+      "text_en": "Hello",
+      "spoken_en": "Hello"
+    },
+    {
+      "id": "lib_goodbye",
+      "text": "ნახვამდის",
+      "icon": "🙋",
+      "type": "basic",
+      "category": "basic",
+      "spoken": "ნახვამდის",
+      "text_en": "Goodbye",
+      "spoken_en": "Goodbye"
+    }
+  ]
+}

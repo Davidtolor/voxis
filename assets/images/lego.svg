@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <!-- 3D Red Lego Gradient -->
+    <linearGradient id="legoRedTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF5252"/>
+      <stop offset="100%" stop-color="#E50914"/>
+    </linearGradient>
+    <linearGradient id="legoRedSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C40812"/>
+      <stop offset="100%" stop-color="#9B040B"/>
+    </linearGradient>
+    
+    <!-- 3D Yellow Lego Gradient -->
+    <linearGradient id="legoYellowTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE033"/>
+      <stop offset="100%" stop-color="#FFC107"/>
+    </linearGradient>
+    <linearGradient id="legoYellowSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E5A800"/>
+      <stop offset="100%" stop-color="#C68F00"/>
+    </linearGradient>
+    
+    <!-- 3D Blue Lego Gradient -->
+    <linearGradient id="legoBlueTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+
+    <!-- Stud gradients -->
+    <linearGradient id="studRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF7575"/>
+      <stop offset="100%" stop-color="#D60711"/>
+    </linearGradient>
+    <linearGradient id="studYellow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF275"/>
+      <stop offset="100%" stop-color="#FFB300"/>
+    </linearGradient>
+
+    <filter id="brickDropShadow" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#brickDropShadow)">
+    <!-- ================= LOWER BLUE BRICK ================= -->
+    <!-- Front Face -->
+    <path d="M 18,72 L 74,72 L 74,96 L 18,96 Z" fill="#0284C7" rx="3"/>
+    <!-- Bottom Shadow Lip -->
+    <path d="M 18,93 L 74,93 L 74,96 L 18,96 Z" fill="#0369A1"/>
+    <!-- Side Face (Right) -->
+    <path d="M 74,72 L 96,56 L 96,80 L 74,96 Z" fill="#075985"/>
+    <!-- Top Face -->
+    <path d="M 18,72 L 40,56 L 96,56 L 74,72 Z" fill="url(#legoBlueTop)"/>
+
+    <!-- ================= UPPER RED BRICK (2x2) ================= -->
+    <!-- Front Face -->
+    <path d="M 32,44 L 88,44 L 88,68 L 32,68 Z" fill="url(#legoRedTop)" rx="4"/>
+    <!-- Bottom Shadow Lip -->
+    <path d="M 32,65 L 88,65 L 88,68 L 32,68 Z" fill="url(#legoRedSide)"/>
+    <!-- Side Face (Right) -->
+    <path d="M 88,44 L 108,30 L 108,54 L 88,68 Z" fill="url(#legoRedSide)"/>
+    <!-- Top Face -->
+    <path d="M 32,44 L 52,30 L 108,30 L 88,44 Z" fill="#FF4545"/>
+
+    <!-- Classic 4 Cylindrical LEGO Studs on Red Brick -->
+    <!-- Stud 1 (Back Left) -->
+    <g transform="translate(48, 28)">
+      <path d="M 0,5 A 9,4.5 0 0,0 18,5 L 18,8 A 9,4.5 0 0,1 0,8 Z" fill="#B3050C"/>
+      <ellipse cx="9" cy="5" rx="9" ry="4.5" fill="url(#studRed)"/>
+      <ellipse cx="9" cy="4.5" rx="7" ry="3.2" fill="#FF7B7B" opacity="0.6"/>
+    </g>
+
+    <!-- Stud 2 (Back Right) -->
+    <g transform="translate(76, 28)">
+      <path d="M 0,5 A 9,4.5 0 0,0 18,5 L 18,8 A 9,4.5 0 0,1 0,8 Z" fill="#B3050C"/>
+      <ellipse cx="9" cy="5" rx="9" ry="4.5" fill="url(#studRed)"/>
+      <ellipse cx="9" cy="4.5" rx="7" ry="3.2" fill="#FF7B7B" opacity="0.6"/>
+    </g>
+
+    <!-- Stud 3 (Front Left) -->
+    <g transform="translate(40, 39)">
+      <path d="M 0,5 A 9.5,5 0 0,0 19,5 L 19,9 A 9.5,5 0 0,1 0,9 Z" fill="#9B040B"/>
+      <ellipse cx="9.5" cy="5" rx="9.5" ry="5" fill="url(#studRed)"/>
+      <ellipse cx="9.5" cy="4.5" rx="7.5" ry="3.5" fill="#FFA3A3" opacity="0.7"/>
+    </g>
+
+    <!-- Stud 4 (Front Right) -->
+    <g transform="translate(68, 39)">
+      <path d="M 0,5 A 9.5,5 0 0,0 19,5 L 19,9 A 9.5,5 0 0,1 0,9 Z" fill="#9B040B"/>
+      <ellipse cx="9.5" cy="5" rx="9.5" ry="5" fill="url(#studRed)"/>
+      <ellipse cx="9.5" cy="4.5" rx="7.5" ry="3.5" fill="#FFA3A3" opacity="0.7"/>
+    </g>
+
+    <!-- Small Accent Yellow Brick Sitting Next to it -->
+    <g transform="translate(-10, 16) scale(0.65)">
+      <path d="M 30,56 L 66,56 L 66,80 L 30,80 Z" fill="url(#legoYellowTop)" rx="3"/>
+      <path d="M 66,56 L 82,44 L 82,68 L 66,80 Z" fill="url(#legoYellowSide)"/>
+      <path d="M 30,56 L 46,44 L 82,44 L 66,56 Z" fill="#FFF275"/>
+      <g transform="translate(42, 41)">
+        <ellipse cx="8" cy="4" rx="8" ry="4" fill="url(#studYellow)"/>
+      </g>
+    </g>
+  </g>
+</svg>
